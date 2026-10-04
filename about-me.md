@@ -7,3 +7,7 @@ I joined Averon Academy because I want to learn software development and develop
 I am particularly interested in web development and mobile development. I want to learn how to build useful websites, applications, and software that can solve real-world problems.
 
 I am excited to learn, practice, and improve my technical skills throughout my journey at Averon Academy.
+
+## My Interests
+
+I am interested in learning how technology can be used to solve problems and make people's lives easier. I am especially interested in creating websites and mobile applications.
