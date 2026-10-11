@@ -1,0 +1,370 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(248, 246, 248);
+}
+.website{
+    background-color: rgba(215, 210, 216, 0.534);
+    overflow-x: hidden;
+}
+header{
+    padding: 10px;
+    position: sticky;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+}
+nav ul li{
+    margin:0px 20px;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #5a595a;
+    padding: 9px;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+nav ul li a:active{
+    color: silver;
+}
+nav ul li a:visited{
+    color: rgb(249, 249, 252);
+}
+#left-circle{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    top: 110px;
+    left: -60px;
+}
+#right-circle{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    float: right;
+    right: -55px;
+    top: -10px;
+}
+.hero-section{
+    width: flex;
+    height: 850px;
+    background-color: gray;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.hero-content{
+    /*margin-bottom: 50px;
+    margin-top: 50px;*/
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 550px;
+    justify-content: center;
+
+}
+.hero-content img{
+    float: right;
+    border-radius: 30px;
+    width: 450px;
+    margin-top: 70px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.hero-left{
+    height: 550;
+    width: 600px;
+}
+button{
+    margin:10px 25px;
+    margin-top: 20px;
+    width: 200PX;
+    height: 75PX;
+    border: none;
+    background-color: gray;
+    box-shadow: 0px 5px 15px black;
+}
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: oblique;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: rgb(54, 54, 53);
+    color: gray;
+    transition: transform 0.3s, background-color 0.3s ease;
+    transform: scale(1.1);
+}
+    
+.about-content{
+    margin: 100px 150px;
+    height: 700px;
+}
+#frame{
+    float:left;
+    width: 300px;
+    height: 500px;
+    border: 7px solid black;
+    border-radius: 30px;
+
+}
+.about-content img{
+    float:left;
+    width: 300px;
+    height: 520px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -40px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+.about-right{
+    line-height: 45px;
+    width: 470px;
+    margin-left: 600px;
+}
+.about-right ul li{
+    width: 500px;
+    list-style-type:circle;
+    height: 50px;
+    color: black;
+}
+.about-right ul{
+    display: flex;
+}
+.myskill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+.myskill div img{
+    margin: 40px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+}
+.contact{
+    width: 1116px;
+    height: 250px;
+    background: linear-gradient(45deg, black, gray, rgba(78, 78, 80, 0.5));
+    margin: auto;
+    border-radius: 30px;
+    color:whitesmoke;
+    position: relative;
+    top:120px;
+}
+.text{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.title{
+    font-size: 50px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.subtitle{
+    font-size: 20px;
+}
+footer{
+    height: 300px;
+    background-color: gray;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(248, 246, 248);
+}
+.website{
+    background-color: rgba(215, 210, 216, 0.534);
+    overflow-x: hidden;
+}
+header{
+    padding: 10px;
+    position: sticky;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+}
+nav ul li{
+    margin:0px 20px;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #5a595a;
+    padding: 9px;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+nav ul li a:active{
+    color: silver;
+}
+nav ul li a:visited{
+    color: rgb(249, 249, 252);
+}
+#left-circle{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    top: 110px;
+    left: -60px;
+}
+#right-circle{
+    width: 100px;
+    height: 100px;
+    border: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    float: right;
+    right: -55px;
+    top: -10px;
+}
+.hero-section{
+    width: flex;
+    height: 850px;
+    background-color: gray;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.hero-content{
+    /*margin-bottom: 50px;
+    margin-top: 50px;*/
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 550px;
+    justify-content: center;
+
+}
+.hero-content img{
+    float: right;
+    border-radius: 30px;
+    width: 450px;
+    margin-top: 70px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.hero-left{
+    height: 550;
+    width: 600px;
+}
+button{
+    margin:10px 25px;
+    margin-top: 20px;
+    width: 200PX;
+    height: 75PX;
+    border: none;
+    background-color: gray;
+    box-shadow: 0px 5px 15px black;
+}
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: oblique;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: rgb(54, 54, 53);
+    color: gray;
+    transition: transform 0.3s, background-color 0.3s ease;
+    transform: scale(1.1);
+}
+    
+.about-content{
+    margin: 100px 150px;
+    height: 700px;
+}
+#frame{
+    float:left;
+    width: 300px;
+    height: 500px;
+    border: 7px solid black;
+    border-radius: 30px;
+
+}
+.about-content img{
+    float:left;
+    width: 300px;
+    height: 520px;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -40px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+.about-right{
+    line-height: 45px;
+    width: 470px;
+    margin-left: 600px;
+}
+.about-right ul li{
+    width: 500px;
+    list-style-type:circle;
+    height: 50px;
+    color: black;
+}
+.about-right ul{
+    display: flex;
+}
+.myskill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+.myskill div img{
+    margin: 40px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+}
+.contact{
+    width: 1116px;
+    height: 250px;
+    background: linear-gradient(45deg, black, gray, rgba(78, 78, 80, 0.5));
+    margin: auto;
+    border-radius: 30px;
+    color:whitesmoke;
+    position: relative;
+    top:120px;
+}
+.text{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.title{
+    font-size: 50px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.subtitle{
+    font-size: 20px;
+}
+footer{
+    height: 300px;
+    background-color: gray;
+}
+
